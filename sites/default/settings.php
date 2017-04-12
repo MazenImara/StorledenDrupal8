@@ -754,12 +754,17 @@ $settings['file_scan_ignore_directories'] = [
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'srorleden',
+  /*'database' => 'srorleden',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
   'host' => 'localhost',
-  'port' => '3306',
+  'port' => '3306',*/
+  'database' => 'storleden_d8_installation_profile',
+  'username' => 'storleden',
+  'password' => 'Fk47Zc68%Cd5',
+  'host' => 'localhost',
+  'port' => 8600,
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
